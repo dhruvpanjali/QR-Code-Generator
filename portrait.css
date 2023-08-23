@@ -1,0 +1,260 @@
+/* For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more */
+
+
+@media(max-width: 1200px){
+    .heading{
+        font-size: 3rem;
+    }
+    .custom-head{
+        font-size: 2.1rem;
+    }
+    label{
+        font-size: 1.8rem;
+    }
+    li select{
+        height: 2.2rem;
+        width: 15%;
+    }
+    .link{
+        font-size: 1.4rem;
+    }
+    .generate-btn{
+        font-size: 1.5rem;
+    }
+    .download-btn{
+        font-size: 1.2rem;
+    }
+    /* --------------------- */
+    .mid-head{
+        font-size: 2.5rem;
+    }
+    .cta-ref-btn a{
+        font-size: 1.1rem;
+    }
+    .cta-ref-btn span{
+        font-size: 1.4rem;
+    }
+    /* --------------------------------- */
+    .btm-container h2{
+        font-size: 1.8rem;
+    }
+    .social-links a i{
+        font-size: 2.2rem;
+    }
+    .download-link{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .download-btn i{
+        font-size: 1rem;
+    }
+}
+/* ----------------------------- */
+@media(max-width: 1024px){
+    .heading{
+        font-size: 2.5rem;
+    }
+    .custom-head{
+        font-size: 1.8rem;
+    }
+    label{
+        font-size: 1.6rem;
+    }
+    li select{
+        height: 2.1rem;
+        width: 18%;
+    }
+    .link{
+        font-size: 1.3rem;
+    }
+    .generate-btn{
+        font-size: 1.4rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .download-btn{
+        font-size: 1.1rem;
+    }
+    /* ------------------------ */
+    .mid-head{
+        font-size: 2.3rem;
+    }
+    .cta-ref-btn a{
+        font-size: 1.1rem;
+    }
+    .cta-ref-btn span{
+        font-size: 1.2rem;
+    }
+    /* --------------------------------- */
+    .btm-container h2{
+        font-size: 1.5rem;
+    }
+    .social-links a i{
+        font-size: 2rem;
+    }
+    .qr-img{
+        max-width: 60%;
+    }
+}
+/* ------------------------------- */
+@media(max-width: 768px){
+    .heading{
+        font-size: 2.2rem;
+    }
+    .custom-head{
+        font-size: 1.2rem;
+    }
+    li select{
+        font-size: 1.1rem;
+    }
+    .custom-head h2{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    label{
+        font-size: 1.4rem;
+    }
+    li select{
+        height: 2.2rem;
+        width: 25%;
+    }
+    .link{
+        font-size: 1.2rem;
+    }
+    .generate-btn{
+        height: 12%;
+        font-size: 1.3rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .qr-img{
+        max-width: 100%;
+    }
+    .download-btn{
+        font-size: 1rem;
+    }
+    .download-btn a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+    }
+    .download-btn i{
+        font-size: 1rem;
+    }
+    /* --------------------------- */
+    .mid-head{
+        font-size: 1.6rem;
+    }
+    .cta-ref-btn a{
+        font-size: 0.8rem;
+    }
+    .cta-ref-btn span{
+        font-size: 1rem;
+    }
+    /* --------------------------------- */
+    .btm-container h2{
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+    }
+    .social-links a i{
+        font-size: 1.5rem;
+    }
+}
+/* -------------------------------- */
+@media(max-width: 320px){
+    .heading{
+        font-size: 1.8rem;
+    }
+    .heading h1{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .custom-head{
+        font-size: 1rem;
+    }
+    .custom-head h2{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    li{
+        flex-wrap: wrap;
+    }
+    li select{
+        font-size: 1rem;
+        width: 30%;
+    }
+    .link{
+        font-size: 1.1rem;
+        height: 13%;
+    }
+    .generate-btn{
+        font-size: 1.2rem;
+        height: 10%;
+        width: 40%;
+    }
+    label{
+        font-size: 1.2rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .generate-btn{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .qr-img{
+        max-width: 100%;
+    }
+    .download-btn{
+        font-size: 0.3rem;
+    }
+    .download-btn a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+    }
+    .download-btn i{
+        font-size: 0.5rem;
+    }
+    /* -------------------------------- */
+    .mid-head{
+        font-size: 1.9rem;
+    }
+    .mid-head h1{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .cta-ref-btn{
+        padding: 0.8rem 0.9rem;
+    }
+    .cta-ref-btn a{
+        font-size: 1rem;
+    }
+    .cta-ref-btn p{
+        display: none;
+    }
+    .cta-ref-btn span{
+        font-size: 0.8rem;
+    }
+    /* --------------------------------- */
+    .btm-container{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .btm-container h2{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .social-links a i{
+        font-size: 1.2rem;
+    }
+}
