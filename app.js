@@ -1,5 +1,5 @@
 
-let url = 'http://api.qrserver.com/v1/create-qr-code/?data=';
+let url = 'https://api.qrserver.com/v1/create-qr-code/?data=';
 let form = document.querySelector("form");
 
 async function getData(url){
