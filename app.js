@@ -86,7 +86,6 @@ let windowresize = false;
 
 function check(){
     if(window.innerWidth >= 768){
-        console.log(genr);
         if(windowresize == true && genr == true){
             heroSec.style.height = "85vh";
             heroCont.style.flexDirection = "row";
@@ -107,7 +106,6 @@ function check(){
 }
 
 generateButton.addEventListener('click', function() {
-    console.log(inpLink.value);
     
     if(inpLink.value != ""){
         heroRightPart.style.display = "";
